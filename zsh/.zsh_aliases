@@ -1,0 +1,53 @@
+# Docker
+alias dcd='docker compose -f dcd.yml'
+alias dct='docker compose -f dct.yml'
+alias dc='docker compose'
+alias dcweb='docker compose run web rails'
+alias dctest='docker compose --profile test run test'
+alias dcv='docker compose -f docker-compose.dev.yml'
+alias dcvweb='docker compose -f docker-compose.dev.yml run web rails'
+alias docker-prune="docker image prune -a"
+alias docker-rm-images="docker rmi -f $(docker images -f "dangling=true" -q)"
+
+# Git
+alias gits='git status'
+alias gitl='git log --graph --decorate'
+alias gitf='git fetch'
+alias gitc='git config --list'
+alias gitpersonal='git config user.email "48222247+sthasubin429@users.noreply.github.com"'
+alias gitbajra='git config user.email "subinshrestha2@bajratechnologies.com"'
+alias gitoutcode='git config user.email "127188945+SubinShrestha-Outcode@users.noreply.github.com"'
+alias gitfetchly='git config user.email "166415037+subinsth@users.noreply.github.com"'
+alias gitcm='git commit -m'
+alias gitlo='git log --graph --decorate --oneline'
+
+# Code Climate
+alias cca='codeclimate analyze'
+
+# Other
+alias c='clear'
+alias o='open .'
+alias zshr="source ~/.zshrc"        #refereshes zshrc file
+alias cpid="sudo rm -rf tmp/pids/*" #deletes pids
+alias vim='nvim'
+
+# Outcode git aliases
+alias gfix="commit -t 'Fix' -m "
+alias gupdate="commit -t 'Update' -m "
+alias gnew="commit -t 'New' -m "
+alias gbreak="commit -t 'Breaking' -m "
+alias gdocs="commit -t 'Docs' -m "
+alias gbuild="commit -t 'Build' -m "
+alias gupgrade="commit -t 'Upgrade' -m "
+alias gchore="commit -t 'Chore' -m "
+alias ghelp="commit -h"
+
+# Fetchly git aliases
+alias gcommit="gcommit"
+
+# Bat
+alias bat="bat --theme=Dracula --style='numbers,changes,header'"
+alias cat="bat"
+
+alias update="brew update && brew upgrade && brew cleanup && brew doctor"
+alias ngUpdate="npm uninstall -g @angular/cli && npm install -g @angular/cli@latest"

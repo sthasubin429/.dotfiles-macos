@@ -1,0 +1,37 @@
+Host *
+    UseKeychain yes
+
+Host github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/personal_git
+
+Host outcode
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/outcode_git
+
+Host fetchly
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fetchly_git
+
+Host ssh.dev.azure.com
+  HostName ssh.dev.azure.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/outcode_azure_git
+
+Host eventflo-staging-frontend
+  Hostname 100.20.180.81
+  User ubuntu
+  IdentityFile ~/.ssh/eventflo.pem
+
+Host eventflo-staging-backend
+  Hostname 52.33.249.128
+  User ubuntu
+  IdentityFile ~/.ssh/eventflo.pem
+
+Host estimation-system-staging
+  Hostname 3.138.120.110
+  User ubuntu
+  IdentityFile ~/.ssh/estimation-system-staging.pem
