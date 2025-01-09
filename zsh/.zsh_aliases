@@ -20,6 +20,9 @@ alias gitoutcode='git config user.email "127188945+SubinShrestha-Outcode@users.n
 alias gitfetchly='git config user.email "166415037+subinsth@users.noreply.github.com"'
 alias gitcm='git commit -m'
 alias gitlo='git log --graph --decorate --oneline'
+alias gitp='git push'
+alias gitpl='git pull'
+alias gitpf='git push --force-with-lease'
 
 # Code Climate
 alias cca='codeclimate analyze'
@@ -49,5 +52,11 @@ alias gcommit="gcommit"
 alias bat="bat --theme=Dracula --style='numbers,changes,header'"
 alias cat="bat"
 
+# anaconda
+alias cbase="conda activate base"
+alias cenv="conda env list"
+alias cdenv="conda deactivate"
+
+# utils
 alias update="brew update && brew upgrade && brew cleanup && brew doctor"
 alias ngUpdate="npm uninstall -g @angular/cli && npm install -g @angular/cli@latest"

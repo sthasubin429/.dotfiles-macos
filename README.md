@@ -74,4 +74,8 @@ https://draculatheme.com/iterm
 brew install nvm
 ```
 
+### pyenv
+```code
+brew install pyenv
+```
 ## Other installs
