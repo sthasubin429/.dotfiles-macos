@@ -60,3 +60,7 @@ alias cdenv="conda deactivate"
 # utils
 alias update="brew update && brew upgrade && brew cleanup && brew doctor"
 alias ngUpdate="npm uninstall -g @angular/cli && npm install -g @angular/cli@latest"
+alias jn="cbase && jupyter notebook"
+
+# the fuck
+alias f="fuck"

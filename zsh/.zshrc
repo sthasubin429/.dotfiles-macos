@@ -106,10 +106,14 @@ eval "$(starship init zsh)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# the fuck cli
+eval $(thefuck --alias)
+
+bindkey "^X\\x7f" backward-kill-line
+
 source ~/.zsh_aliases
 source ~/.zsh_install
 
 precmd(){
   source ~/.zsh_precmd
 }
-
