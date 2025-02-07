@@ -78,4 +78,10 @@ brew install nvm
 ```code
 brew install pyenv
 ```
+
+### thefuck
+```code
+brew install thefuck
+```
+
 ## Other installs
