@@ -85,3 +85,8 @@ brew install thefuck
 ```
 
 ## Other installs
+
+### pnpm
+```code
+npm install -g pnpm@latest
+```
