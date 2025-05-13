@@ -17,3 +17,7 @@ ln -s ~/.dotfiles-macos/zsh/.zshrc ~/.zshrc
 
 # Tmux
 ln -s ~/.dotfiles-macos/tmux/.tmux.conf ~/.tmux.conf
+
+
+# sketchybar
+ln -s ~/.dotfiles-macos/sketchybar ~/.config/sketchybar
