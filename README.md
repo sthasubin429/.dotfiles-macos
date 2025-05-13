@@ -84,9 +84,31 @@ brew install pyenv
 brew install thefuck
 ```
 
+### rbenv
+```code
+brew install rbenv
+rbenv install 3.4.2
+rbenv global 3.4.2
+```
+
+### Neovim
+```code
+brew install neovim
+```
+
 ## Other installs
 
 ### pnpm
 ```code
 npm install -g pnpm@latest
+```
+
+### yarn
+```code
+npm install --global yarn
+```
+
+### jq
+```code
+brew install jq
 ```

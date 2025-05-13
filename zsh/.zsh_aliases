@@ -23,6 +23,7 @@ alias gitlo='git log --graph --decorate --oneline'
 alias gitp='git push'
 alias gitpl='git pull'
 alias gitpf='git push --force-with-lease'
+alias gitd='git diff --staged'
 
 # Code Climate
 alias cca='codeclimate analyze'
@@ -30,6 +31,7 @@ alias cca='codeclimate analyze'
 # Other
 alias c='clear'
 alias o='open .'
+alias co='code .'
 alias zshr="source ~/.zshrc"        #refereshes zshrc file
 alias cpid="sudo rm -rf tmp/pids/*" #deletes pids
 alias vim='nvim'

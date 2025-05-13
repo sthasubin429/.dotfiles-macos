@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+eval "$(rbenv init -)"
 
 # User configuration
 
@@ -117,3 +118,9 @@ source ~/.zsh_install
 precmd(){
   source ~/.zsh_precmd
 }
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/subin/clones/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/subin/clones/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/subin/clones/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/subin/clones/google-cloud-sdk/completion.zsh.inc'; fi
