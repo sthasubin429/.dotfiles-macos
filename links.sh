@@ -4,6 +4,7 @@
 
 # git
 ln -s ~/.dotfiles-macos/git/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles-macos/git/.gitignore_global ~/.gitignore_global
 
 # ssh
 ln -s ~/.dotfiles-macos/ssh/config ~/.ssh/config
@@ -21,3 +22,10 @@ ln -s ~/.dotfiles-macos/tmux/.tmux.conf ~/.tmux.conf
 
 # sketchybar
 ln -s ~/.dotfiles-macos/sketchybar ~/.config/sketchybar
+
+# nvim
+ln -s ~/.dotfiles-macos/nvim ~/.config/nvim
+
+
+# gitconfig
+git config --global core.excludesfile ~/.gitignore_global

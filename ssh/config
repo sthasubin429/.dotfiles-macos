@@ -16,22 +16,25 @@ Host fetchly
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/fetchly_git
 
-Host ssh.dev.azure.com
-  HostName ssh.dev.azure.com
+Host monicais
+  HostName gitlab.com
   PreferredAuthentications publickey
-  IdentityFile ~/.ssh/outcode_azure_git
+  IdentityFile ~/.ssh/monica_git
 
-Host eventflo-staging-frontend
-  Hostname 100.20.180.81
+Host traidsafe_be_dev
+  HostName development.traidsafe.fetchlydev.com
   User ubuntu
-  IdentityFile ~/.ssh/eventflo.pem
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fetchly_ssh
 
-Host eventflo-staging-backend
-  Hostname 52.33.249.128
+Host traidsafe_be_staging
+  HostName staging.traidsafe.com
   User ubuntu
-  IdentityFile ~/.ssh/eventflo.pem
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fetchly_ssh
 
-Host estimation-system-staging
-  Hostname 3.138.120.110
+Host vintagecards_be_staging
+  HostName staging.api.vintagecards.com
   User ubuntu
-  IdentityFile ~/.ssh/estimation-system-staging.pem
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fetchly_ssh

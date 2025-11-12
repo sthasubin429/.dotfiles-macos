@@ -133,6 +133,7 @@ sketchybar --add event spotify_change $SPOTIFY_EVENT \
     label.padding_left=0 \
     script="$PLUGIN_DIR/spotify.sh" \
     --subscribe spotify spotify_change mouse.clicked
+
 ##### Finalizing Setup #####
 sketchybar --update
 sketchybar --trigger space_change

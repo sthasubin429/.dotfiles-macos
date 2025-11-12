@@ -112,3 +112,13 @@ npm install --global yarn
 ```code
 brew install jq
 ```
+
+### Claude Code
+```code
+brew install --cask claude-code
+```
+
+### Gemini
+```code
+brew install gemini-cli
+```

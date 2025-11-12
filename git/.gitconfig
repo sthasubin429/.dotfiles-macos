@@ -13,3 +13,10 @@
 	sort = -committerdate
 [maintenance]
 	repo = /home/subin/fetchly/spheric
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	excludesfile = /Users/subin/.gitignore_global
