@@ -20,3 +20,7 @@
 	smudge = git-lfs smudge -- %f
 [core]
 	excludesfile = /Users/subin/.gitignore_global
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true

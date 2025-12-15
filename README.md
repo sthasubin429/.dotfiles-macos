@@ -122,3 +122,8 @@ brew install --cask claude-code
 ```code
 brew install gemini-cli
 ```
+
+### Bun
+```code
+curl -fsSL https://bun.sh/install | bash
+```

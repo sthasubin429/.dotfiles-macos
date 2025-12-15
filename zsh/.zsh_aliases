@@ -35,6 +35,7 @@ alias co='code .'
 alias zshr="source ~/.zshrc"        #refereshes zshrc file
 alias cpid="sudo rm -rf tmp/pids/*" #deletes pids
 alias vim='nvim'
+alias ao='antigravity .'
 
 # Outcode git aliases
 alias gfix="commit -t 'Fix' -m "
@@ -60,7 +61,7 @@ alias cenv="conda env list"
 alias cdenv="conda deactivate"
 
 # utils
-alias update="brew update && brew upgrade && brew cleanup && brew doctor"
+alias update="brew update && brew upgrade && brew cleanup && brew doctor && omz update && brew cleanup --prune=all"
 alias ngUpdate="npm uninstall -g @angular/cli && npm install -g @angular/cli@latest"
 alias jn="cbase && jupyter notebook"
 
